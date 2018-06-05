@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class="main-container">
+  <button class='account' bindtap='jumpTo' wx:for="{{lists}}" data-link='{{item.url}}' wx:key="item.key">{{item.name}}</button>
+</view>

@@ -1,0 +1,4 @@
+<!--pages/account/index.wxml-->
+<view>
+  hello account
+</view>
